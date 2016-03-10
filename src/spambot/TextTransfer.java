@@ -1,4 +1,4 @@
-package spam;
+package spambot;
 
 
 import java.awt.datatransfer.Clipboard;

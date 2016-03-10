@@ -1,4 +1,4 @@
-package spam;
+package spambot;
 
 import java.awt.AWTException;
 import java.awt.BorderLayout;
@@ -68,5 +68,16 @@ public class SpamBot extends JFrame {
 				}
 			}
 		}
+	}
+
+	public static void main(String[] args) {
+		
+	    SpamBot s = new SpamBot();
+
+		s.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		s.setSize(275, 180);
+		s.setVisible(true);
+
+		// spamContent = s.spamField.getText();
 	}
 }
